@@ -1,0 +1,4 @@
+org/example/tomcatlogfilehandler/controller/TomcatLogFileHandlerController.class
+org/example/tomcatlogfilehandler/TomcatLogFileHandlerApplication.class
+org/example/tomcatlogfilehandler/service/FileManagementService.class
+org/example/tomcatlogfilehandler/service/TomcatLogFileHandlerService.class

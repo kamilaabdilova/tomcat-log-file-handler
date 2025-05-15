@@ -1,0 +1,165 @@
+14-May-2025 11:38:54.703 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Имя версии сервера:    Apache Tomcat/10.1.41
+14-May-2025 11:38:54.705 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Сервер собран:         May 8 2025 12:44:02 UTC
+14-May-2025 11:38:54.705 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Номер версии сервера:  10.1.41.0
+14-May-2025 11:38:54.705 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+14-May-2025 11:38:54.705 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия ОС:             15.4.1
+14-May-2025 11:38:54.705 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Архитектура:           aarch64
+14-May-2025 11:38:54.705 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home
+14-May-2025 11:38:54.705 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия JVM:            22.0.1+8-16
+14-May-2025 11:38:54.705 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Производитель JVM:     Oracle Corporation
+14-May-2025 11:38:54.705 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/kamila/tomcat/apache-tomcat-10.1.41
+14-May-2025 11:38:54.705 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/kamila/tomcat/apache-tomcat-10.1.41
+14-May-2025 11:38:54.709 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/kamila/tomcat/apache-tomcat-10.1.41/conf/logging.properties
+14-May-2025 11:38:54.710 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+14-May-2025 11:38:54.710 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+14-May-2025 11:38:54.710 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+14-May-2025 11:38:54.710 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+14-May-2025 11:38:54.710 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+14-May-2025 11:38:54.710 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+14-May-2025 11:38:54.710 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+14-May-2025 11:38:54.710 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+14-May-2025 11:38:54.710 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+14-May-2025 11:38:54.710 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+14-May-2025 11:38:54.710 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+14-May-2025 11:38:54.710 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/kamila/tomcat/apache-tomcat-10.1.41
+14-May-2025 11:38:54.710 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/kamila/tomcat/apache-tomcat-10.1.41
+14-May-2025 11:38:54.710 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/kamila/tomcat/apache-tomcat-10.1.41/temp
+14-May-2025 11:38:54.714 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/kamila/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+14-May-2025 11:38:54.828 INFO [main] org.apache.coyote.AbstractProtocol.init Инициализация ProtocolHandler ["http-nio-8080"]
+14-May-2025 11:38:54.837 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Ошибка инициализации компонента [Connector["http-nio-8080"]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1051)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:522)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:957)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:712)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:735)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:302)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:475)
+	Caused by: java.net.BindException: Address already in use
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:565)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:344)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:301)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:240)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:195)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1304)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1317)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:633)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:82)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1049)
+		... 11 more
+14-May-2025 11:38:54.838 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [210] milliseconds
+14-May-2025 11:38:54.855 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+14-May-2025 11:38:54.855 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.41]
+14-May-2025 11:38:54.858 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/Users/kamila/tomcat/apache-tomcat-10.1.41/webapps/docs]
+14-May-2025 11:38:54.964 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/kamila/tomcat/apache-tomcat-10.1.41/webapps/docs] has finished in [104] ms
+14-May-2025 11:38:54.964 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/Users/kamila/tomcat/apache-tomcat-10.1.41/webapps/manager]
+14-May-2025 11:38:54.977 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/kamila/tomcat/apache-tomcat-10.1.41/webapps/manager] has finished in [12] ms
+14-May-2025 11:38:54.977 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/Users/kamila/tomcat/apache-tomcat-10.1.41/webapps/examples]
+14-May-2025 11:38:55.061 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/kamila/tomcat/apache-tomcat-10.1.41/webapps/examples] has finished in [84] ms
+14-May-2025 11:38:55.061 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/Users/kamila/tomcat/apache-tomcat-10.1.41/webapps/ROOT]
+14-May-2025 11:38:55.067 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/kamila/tomcat/apache-tomcat-10.1.41/webapps/ROOT] has finished in [6] ms
+14-May-2025 11:38:55.068 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/Users/kamila/tomcat/apache-tomcat-10.1.41/webapps/host-manager]
+14-May-2025 11:38:55.074 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/kamila/tomcat/apache-tomcat-10.1.41/webapps/host-manager] has finished in [7] ms
+14-May-2025 11:38:55.075 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [237] milliseconds
+14-May-2025 11:46:05.100 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+14-May-2025 11:46:05.101 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+14-May-2025 11:46:05.101 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+14-May-2025 11:46:05.113 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+14-May-2025 11:46:05.114 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+14-May-2025 11:46:24.211 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Имя версии сервера:    Apache Tomcat/10.1.41
+14-May-2025 11:46:24.212 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Сервер собран:         May 8 2025 12:44:02 UTC
+14-May-2025 11:46:24.212 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Номер версии сервера:  10.1.41.0
+14-May-2025 11:46:24.212 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+14-May-2025 11:46:24.212 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия ОС:             15.4.1
+14-May-2025 11:46:24.213 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Архитектура:           aarch64
+14-May-2025 11:46:24.213 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home
+14-May-2025 11:46:24.213 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия JVM:            22.0.1+8-16
+14-May-2025 11:46:24.213 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Производитель JVM:     Oracle Corporation
+14-May-2025 11:46:24.213 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/kamila/tomcat/apache-tomcat-10.1.41
+14-May-2025 11:46:24.213 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/kamila/tomcat/apache-tomcat-10.1.41
+14-May-2025 11:46:24.217 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/kamila/tomcat/apache-tomcat-10.1.41/conf/logging.properties
+14-May-2025 11:46:24.217 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+14-May-2025 11:46:24.217 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+14-May-2025 11:46:24.217 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+14-May-2025 11:46:24.217 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+14-May-2025 11:46:24.217 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+14-May-2025 11:46:24.217 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+14-May-2025 11:46:24.217 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+14-May-2025 11:46:24.217 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+14-May-2025 11:46:24.217 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+14-May-2025 11:46:24.218 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+14-May-2025 11:46:24.218 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+14-May-2025 11:46:24.218 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/kamila/tomcat/apache-tomcat-10.1.41
+14-May-2025 11:46:24.218 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/kamila/tomcat/apache-tomcat-10.1.41
+14-May-2025 11:46:24.218 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/kamila/tomcat/apache-tomcat-10.1.41/temp
+14-May-2025 11:46:24.222 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/kamila/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+14-May-2025 11:46:24.336 INFO [main] org.apache.coyote.AbstractProtocol.init Инициализация ProtocolHandler ["http-nio-8080"]
+14-May-2025 11:46:24.348 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [210] milliseconds
+14-May-2025 11:46:24.361 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+14-May-2025 11:46:24.361 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.41]
+14-May-2025 11:46:24.364 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/Users/kamila/tomcat/apache-tomcat-10.1.41/webapps/docs]
+14-May-2025 11:46:24.463 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/kamila/tomcat/apache-tomcat-10.1.41/webapps/docs] has finished in [98] ms
+14-May-2025 11:46:24.463 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/Users/kamila/tomcat/apache-tomcat-10.1.41/webapps/manager]
+14-May-2025 11:46:24.476 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/kamila/tomcat/apache-tomcat-10.1.41/webapps/manager] has finished in [13] ms
+14-May-2025 11:46:24.476 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/Users/kamila/tomcat/apache-tomcat-10.1.41/webapps/examples]
+14-May-2025 11:46:24.554 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/kamila/tomcat/apache-tomcat-10.1.41/webapps/examples] has finished in [78] ms
+14-May-2025 11:46:24.554 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/Users/kamila/tomcat/apache-tomcat-10.1.41/webapps/ROOT]
+14-May-2025 11:46:24.560 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/kamila/tomcat/apache-tomcat-10.1.41/webapps/ROOT] has finished in [6] ms
+14-May-2025 11:46:24.560 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/Users/kamila/tomcat/apache-tomcat-10.1.41/webapps/host-manager]
+14-May-2025 11:46:24.567 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/kamila/tomcat/apache-tomcat-10.1.41/webapps/host-manager] has finished in [7] ms
+14-May-2025 11:46:24.568 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+14-May-2025 11:46:24.574 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [224] milliseconds
+14-May-2025 12:07:27.454 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+14-May-2025 12:07:27.457 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+14-May-2025 12:07:27.467 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+14-May-2025 12:07:27.486 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+14-May-2025 12:07:27.492 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+14-May-2025 12:07:35.513 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Имя версии сервера:    Apache Tomcat/10.1.41
+14-May-2025 12:07:35.515 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Сервер собран:         May 8 2025 12:44:02 UTC
+14-May-2025 12:07:35.515 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Номер версии сервера:  10.1.41.0
+14-May-2025 12:07:35.515 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+14-May-2025 12:07:35.515 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия ОС:             15.4.1
+14-May-2025 12:07:35.515 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Архитектура:           aarch64
+14-May-2025 12:07:35.515 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home
+14-May-2025 12:07:35.515 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия JVM:            22.0.1+8-16
+14-May-2025 12:07:35.515 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Производитель JVM:     Oracle Corporation
+14-May-2025 12:07:35.515 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/kamila/tomcat/apache-tomcat-10.1.41
+14-May-2025 12:07:35.515 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/kamila/tomcat/apache-tomcat-10.1.41
+14-May-2025 12:07:35.519 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/kamila/tomcat/apache-tomcat-10.1.41/conf/logging.properties
+14-May-2025 12:07:35.519 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+14-May-2025 12:07:35.519 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+14-May-2025 12:07:35.519 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+14-May-2025 12:07:35.519 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+14-May-2025 12:07:35.519 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+14-May-2025 12:07:35.519 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+14-May-2025 12:07:35.520 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+14-May-2025 12:07:35.520 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+14-May-2025 12:07:35.520 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+14-May-2025 12:07:35.520 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+14-May-2025 12:07:35.520 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+14-May-2025 12:07:35.520 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/kamila/tomcat/apache-tomcat-10.1.41
+14-May-2025 12:07:35.520 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/kamila/tomcat/apache-tomcat-10.1.41
+14-May-2025 12:07:35.520 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/kamila/tomcat/apache-tomcat-10.1.41/temp
+14-May-2025 12:07:35.524 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/kamila/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+14-May-2025 12:07:35.635 INFO [main] org.apache.coyote.AbstractProtocol.init Инициализация ProtocolHandler ["http-nio-8080"]
+14-May-2025 12:07:35.647 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [204] milliseconds
+14-May-2025 12:07:35.659 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+14-May-2025 12:07:35.659 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.41]
+14-May-2025 12:07:35.661 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/Users/kamila/tomcat/apache-tomcat-10.1.41/webapps/docs]
+14-May-2025 12:07:35.761 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/kamila/tomcat/apache-tomcat-10.1.41/webapps/docs] has finished in [99] ms
+14-May-2025 12:07:35.761 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/Users/kamila/tomcat/apache-tomcat-10.1.41/webapps/manager]
+14-May-2025 12:07:35.774 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/kamila/tomcat/apache-tomcat-10.1.41/webapps/manager] has finished in [13] ms
+14-May-2025 12:07:35.774 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/Users/kamila/tomcat/apache-tomcat-10.1.41/webapps/examples]
+14-May-2025 12:07:35.852 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/kamila/tomcat/apache-tomcat-10.1.41/webapps/examples] has finished in [78] ms
+14-May-2025 12:07:35.852 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/Users/kamila/tomcat/apache-tomcat-10.1.41/webapps/ROOT]
+14-May-2025 12:07:35.857 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/kamila/tomcat/apache-tomcat-10.1.41/webapps/ROOT] has finished in [5] ms
+14-May-2025 12:07:35.857 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/Users/kamila/tomcat/apache-tomcat-10.1.41/webapps/host-manager]
+14-May-2025 12:07:35.864 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/kamila/tomcat/apache-tomcat-10.1.41/webapps/host-manager] has finished in [7] ms
+14-May-2025 12:07:35.866 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+14-May-2025 12:07:35.871 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [223] milliseconds
